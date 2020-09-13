@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-from datetime import datetime
-import time
 import re
 
 workoutData = pd.read_csv("workout.csv", sep=',')
