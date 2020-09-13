@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import re
 
-workoutData = pd.read_csv("workout.csv", sep=',')
+workoutData = pd.read_csv("bislettTresh.csv", sep=',')
 start = 0
 laps = 10
 hrValid = True
