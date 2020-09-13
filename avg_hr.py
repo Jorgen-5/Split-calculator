@@ -4,12 +4,7 @@ from datetime import datetime
 import time
 import re
 
-print()
-
-workoutData = pd.read_csv("bislettTresh.csv", sep=',')
-
-# print(avgLaptime)
-
+workoutData = pd.read_csv("workout.csv", sep=',')
 start = 0
 laps = 10
 hrValid = True
@@ -20,7 +15,6 @@ except:
     hrValid = False
 
 avgLaptime = workoutData["Tid"]
-
 
 def calcualteAvgHr(startIndex, numLaps):
     sumAvg = 0
